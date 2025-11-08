@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f2027;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fade 2s infinite alternate;
+}
+
+@keyframes fade {
+  0% { opacity: 0.6; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1.02); }
+}
